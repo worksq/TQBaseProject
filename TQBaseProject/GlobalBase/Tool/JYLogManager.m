@@ -4,7 +4,7 @@
 //
 //  Created by WORKSQ on 2018/11/24.
 //  Copyright © 2018 TSQ. All rights reserved.
-//
+//s.source_files = 'TQBaseProject/GlobalBase/Base/*'
 
 #import "JYLogManager.h"
 #import "TQBaseProject.h"

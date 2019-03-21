@@ -6,46 +6,49 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'worksq' => 'worksq@yeah.net' }
   s.source           = { :git => 'https://github.com/worksq/TQBaseProject.git', :tag => "0.0.3" }
+  s.frameworks = 'UIKit'
   s.requires_arc     = true
   s.ios.deployment_target = '8.0'
+  
 
-  s.default_subspec = 'All'
-  s.subspec 'All' do |ss|
-    ss.dependency 'TQBaseProject/Controller'
-    ss.dependency 'TQBaseProject/Gategory'
-    ss.ios.dependency 'TQBaseProject/Model'
-    ss.ios.dependency 'TQBaseProject/Resouce'
-    ss.ios.dependency 'TQBaseProject/Service'
-    ss.ios.dependency 'TQBaseProject/Tool'
-    ss.ios.dependency 'TQBaseProject/View'
+s.subspec 'Base' do |ss|
+    ss.source_files = 'TQBaseProject/GlobalBase/Base/*.h'
+    ss.public_header_files = 'TQBaseProject/GlobalBase/Base/*.h'
   end
 
    s.subspec 'Controller' do |ss|
-    ss.source_files = 'TQBaseProject/Controller/*.{h,m}'
+    ss.source_files = 'TQBaseProject/GlobalBase/Controller/*.h'
+    ss.public_header_files = 'TQBaseProject/GlobalBase/Base/*.h'
   end
 
   s.subspec 'Gategory' do |ss|
-    ss.source_files = 'TQBaseProject/Gategory/*.{h,m}'
+    ss.source_files = 'TQBaseProject/GlobalBase/Gategory/*.h'
+    ss.public_header_files = 'TQBaseProject/GlobalBase/Base/*.h'
   end
 
   s.subspec 'Model' do |ss|
-    ss.source_files = 'TQBaseProject/Model/*.{h,m}'
+    ss.source_files = 'TQBaseProject/GlobalBase/Model/*.h'
+    ss.public_header_files = 'TQBaseProject/GlobalBase/Base/*.h'
   end
 
   s.subspec 'Resouce' do |ss|
-    ss.source_files = 'TQBaseProject/Resouce/*'
+    ss.source_files = 'TQBaseProject/GlobalBase/Resouce/*'
+    
   end
 
   s.subspec 'Service' do |ss|
-    ss.source_files = 'TQBaseProject/Service/*.{h,m}'
+    ss.source_files = 'TQBaseProject/GlobalBase/Service/*.h'
+    ss.public_header_files = 'TQBaseProject/GlobalBase/Base/*.h'
   end
 
   s.subspec 'Tool' do |ss|
-    ss.source_files = 'TQBaseProject/Tool/*.{h,m}'
+    ss.source_files = 'TQBaseProject/GlobalBase/Tool/*.h'
+    ss.public_header_files = 'TQBaseProject/GlobalBase/Base/*.h'
   end
 
   s.subspec 'View' do |ss|
-    ss.source_files = 'TQBaseProject/View/*.{h,m}'
+    ss.source_files = 'TQBaseProject/GlobalBase/View/*.h','TQBaseProject/GlobalBase/View/JYCustomAlertView/*.h','TQBaseProject/GlobalBase/View/ZFChart/*.h'
+    ss.public_header_files = 'TQBaseProject/GlobalBase/Base/*.h'
   end
   
   s.dependency 'MBProgressHUD'

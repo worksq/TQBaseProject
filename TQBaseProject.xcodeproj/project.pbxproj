@@ -15,13 +15,9 @@
 		97EF5BCF224201AE0087392E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EF5BCD224201AE0087392E /* LaunchScreen.storyboard */; };
 		97EF5BD2224201AE0087392E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BD1224201AE0087392E /* main.m */; };
 		97EF5C7F224201E60087392E /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BDD224201E60087392E /* UIColor+hex.m */; };
-		97EF5C80224201E60087392E /* UIViewController+CustomHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BE3224201E60087392E /* UIViewController+CustomHud.m */; };
 		97EF5C81224201E60087392E /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BE4224201E60087392E /* Animation.m */; };
 		97EF5C82224201E60087392E /* UIViewController+TQPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BE5224201E60087392E /* UIViewController+TQPhoto.m */; };
-		97EF5C83224201E60087392E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BE7224201E60087392E /* NSString+Extension.m */; };
 		97EF5C84224201E60087392E /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BE8224201E60087392E /* UIImageView+CornerRadius.m */; };
-		97EF5C85224201E60087392E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BE9224201E60087392E /* UIView+Extension.m */; };
-		97EF5C86224201E60087392E /* UIView+JYCustomHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BEA224201E60087392E /* UIView+JYCustomHud.m */; };
 		97EF5C87224201E60087392E /* UITextField+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BEB224201E60087392E /* UITextField+Shake.m */; };
 		97EF5C88224201E60087392E /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BED224201E60087392E /* BaseController.m */; };
 		97EF5C89224201E60087392E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5BF0224201E60087392E /* BaseNavigationController.m */; };
@@ -81,12 +77,16 @@
 		97EF5CC1224201E70087392E /* ZFHorizontalBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C69224201E60087392E /* ZFHorizontalBar.m */; };
 		97EF5CC2224201E70087392E /* GlobalBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C6D224201E60087392E /* GlobalBaseView.m */; };
 		97EF5CC3224201E70087392E /* GlobalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C6E224201E60087392E /* GlobalTableView.m */; };
-		97EF5CC4224201E70087392E /* JYCustomHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C6F224201E60087392E /* JYCustomHudView.m */; };
 		97EF5CC5224201E70087392E /* BaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C71224201E60087392E /* BaseApi.m */; };
 		97EF5CC6224201E70087392E /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C74224201E60087392E /* BaseManager.m */; };
 		97EF5CC7224201E70087392E /* JYLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C76224201E60087392E /* JYLogManager.m */; };
-		97EF5CC9224201E70087392E /* CCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C7D224201E60087392E /* CCLocationManager.m */; };
-		97EF5CCA224201E70087392E /* CLLocation+YCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5C7E224201E60087392E /* CLLocation+YCLocation.m */; };
+		97EF5CD0224232480087392E /* CCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5CCD224232480087392E /* CCLocationManager.m */; };
+		97EF5CD1224232480087392E /* CLLocation+YCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5CCF224232480087392E /* CLLocation+YCLocation.m */; };
+		97EF5CED22432B7C0087392E /* UIViewController+CustomHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5CE822432B7C0087392E /* UIViewController+CustomHud.m */; };
+		97EF5CEE22432B7C0087392E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5CE922432B7C0087392E /* NSString+Extension.m */; };
+		97EF5CEF22432B7C0087392E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5CEA22432B7C0087392E /* UIView+Extension.m */; };
+		97EF5CF022432B7C0087392E /* JYCustomHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5CEB22432B7C0087392E /* JYCustomHudView.m */; };
+		97EF5CF122432B7C0087392E /* UIView+JYCustomHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF5CEC22432B7C0087392E /* UIView+JYCustomHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,22 +104,14 @@
 		97EF5BD0224201AE0087392E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97EF5BD1224201AE0087392E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97EF5BDA224201E60087392E /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
-		97EF5BDB224201E60087392E /* UIViewController+CustomHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomHud.h"; sourceTree = "<group>"; };
-		97EF5BDC224201E60087392E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		97EF5BDD224201E60087392E /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
 		97EF5BDE224201E60087392E /* UIViewController+TQPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TQPhoto.h"; sourceTree = "<group>"; };
-		97EF5BDF224201E60087392E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		97EF5BE0224201E60087392E /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
-		97EF5BE1224201E60087392E /* UIView+JYCustomHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYCustomHud.h"; sourceTree = "<group>"; };
 		97EF5BE2224201E60087392E /* UITextField+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Shake.h"; sourceTree = "<group>"; };
-		97EF5BE3224201E60087392E /* UIViewController+CustomHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomHud.m"; sourceTree = "<group>"; };
 		97EF5BE4224201E60087392E /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
 		97EF5BE5224201E60087392E /* UIViewController+TQPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TQPhoto.m"; sourceTree = "<group>"; };
 		97EF5BE6224201E60087392E /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
-		97EF5BE7224201E60087392E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		97EF5BE8224201E60087392E /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
-		97EF5BE9224201E60087392E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		97EF5BEA224201E60087392E /* UIView+JYCustomHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYCustomHud.m"; sourceTree = "<group>"; };
 		97EF5BEB224201E60087392E /* UITextField+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Shake.m"; sourceTree = "<group>"; };
 		97EF5BED224201E60087392E /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
 		97EF5BEE224201E60087392E /* BaseTableViewVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewVc.h; sourceTree = "<group>"; };
@@ -224,21 +216,29 @@
 		97EF5C68224201E60087392E /* ZFHorizontalBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHorizontalBarChart.m; sourceTree = "<group>"; };
 		97EF5C69224201E60087392E /* ZFHorizontalBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHorizontalBar.m; sourceTree = "<group>"; };
 		97EF5C6A224201E60087392E /* ZFHorizontalBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHorizontalBarChart.h; sourceTree = "<group>"; };
-		97EF5C6B224201E60087392E /* JYCustomHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCustomHudView.h; sourceTree = "<group>"; };
 		97EF5C6D224201E60087392E /* GlobalBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalBaseView.m; sourceTree = "<group>"; };
 		97EF5C6E224201E60087392E /* GlobalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTableView.m; sourceTree = "<group>"; };
-		97EF5C6F224201E60087392E /* JYCustomHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCustomHudView.m; sourceTree = "<group>"; };
 		97EF5C71224201E60087392E /* BaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApi.m; sourceTree = "<group>"; };
 		97EF5C72224201E60087392E /* BaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApi.h; sourceTree = "<group>"; };
 		97EF5C74224201E60087392E /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
 		97EF5C76224201E60087392E /* JYLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLogManager.m; sourceTree = "<group>"; };
 		97EF5C78224201E60087392E /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
 		97EF5C79224201E60087392E /* JYLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLogManager.h; sourceTree = "<group>"; };
-		97EF5C7B224201E60087392E /* CCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocationManager.h; sourceTree = "<group>"; };
-		97EF5C7C224201E60087392E /* CLLocation+YCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+YCLocation.h"; sourceTree = "<group>"; };
-		97EF5C7D224201E60087392E /* CCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocationManager.m; sourceTree = "<group>"; };
-		97EF5C7E224201E60087392E /* CLLocation+YCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+YCLocation.m"; sourceTree = "<group>"; };
-		97EF5CCB224203CB0087392E /* TQBaseProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQBaseProject.h; sourceTree = "<group>"; };
+		97EF5CCC224232480087392E /* CCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocationManager.h; sourceTree = "<group>"; };
+		97EF5CCD224232480087392E /* CCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocationManager.m; sourceTree = "<group>"; };
+		97EF5CCE224232480087392E /* CLLocation+YCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+YCLocation.h"; sourceTree = "<group>"; };
+		97EF5CCF224232480087392E /* CLLocation+YCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+YCLocation.m"; sourceTree = "<group>"; };
+		97EF5CE222432B7C0087392E /* UIViewController+CustomHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomHud.h"; sourceTree = "<group>"; };
+		97EF5CE322432B7C0087392E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		97EF5CE422432B7C0087392E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		97EF5CE522432B7C0087392E /* TQBaseProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQBaseProject.h; sourceTree = "<group>"; };
+		97EF5CE622432B7C0087392E /* UIView+JYCustomHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYCustomHud.h"; sourceTree = "<group>"; };
+		97EF5CE722432B7C0087392E /* JYCustomHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCustomHudView.h; sourceTree = "<group>"; };
+		97EF5CE822432B7C0087392E /* UIViewController+CustomHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomHud.m"; sourceTree = "<group>"; };
+		97EF5CE922432B7C0087392E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		97EF5CEA22432B7C0087392E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		97EF5CEB22432B7C0087392E /* JYCustomHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCustomHudView.m; sourceTree = "<group>"; };
+		97EF5CEC22432B7C0087392E /* UIView+JYCustomHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYCustomHud.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +291,7 @@
 		97EF5BD8224201E60087392E /* GlobalBase */ = {
 			isa = PBXGroup;
 			children = (
+				97EF5CE122432B7C0087392E /* Base */,
 				97EF5BD9224201E60087392E /* Gategory */,
 				97EF5BEC224201E60087392E /* Controller */,
 				97EF5BF9224201E60087392E /* Resouce */,
@@ -306,22 +307,14 @@
 			isa = PBXGroup;
 			children = (
 				97EF5BDA224201E60087392E /* Animation.h */,
-				97EF5BDB224201E60087392E /* UIViewController+CustomHud.h */,
-				97EF5BDC224201E60087392E /* NSString+Extension.h */,
 				97EF5BDD224201E60087392E /* UIColor+hex.m */,
 				97EF5BDE224201E60087392E /* UIViewController+TQPhoto.h */,
-				97EF5BDF224201E60087392E /* UIView+Extension.h */,
 				97EF5BE0224201E60087392E /* UIImageView+CornerRadius.h */,
-				97EF5BE1224201E60087392E /* UIView+JYCustomHud.h */,
 				97EF5BE2224201E60087392E /* UITextField+Shake.h */,
-				97EF5BE3224201E60087392E /* UIViewController+CustomHud.m */,
 				97EF5BE4224201E60087392E /* Animation.m */,
 				97EF5BE5224201E60087392E /* UIViewController+TQPhoto.m */,
 				97EF5BE6224201E60087392E /* UIColor+hex.h */,
-				97EF5BE7224201E60087392E /* NSString+Extension.m */,
 				97EF5BE8224201E60087392E /* UIImageView+CornerRadius.m */,
-				97EF5BE9224201E60087392E /* UIView+Extension.m */,
-				97EF5BEA224201E60087392E /* UIView+JYCustomHud.m */,
 				97EF5BEB224201E60087392E /* UITextField+Shake.m */,
 			);
 			path = Gategory;
@@ -365,8 +358,8 @@
 		97EF5C06224201E60087392E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				97EF5C07224201E60087392E /* GlobalBaseModel.m */,
 				97EF5C08224201E60087392E /* GlobalBaseModel.h */,
+				97EF5C07224201E60087392E /* GlobalBaseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -378,10 +371,8 @@
 				97EF5C0B224201E60087392E /* GlobalBaseView.h */,
 				97EF5C0D224201E60087392E /* JYCustomAlertView */,
 				97EF5C18224201E60087392E /* ZFChart */,
-				97EF5C6B224201E60087392E /* JYCustomHudView.h */,
 				97EF5C6D224201E60087392E /* GlobalBaseView.m */,
 				97EF5C6E224201E60087392E /* GlobalTableView.m */,
-				97EF5C6F224201E60087392E /* JYCustomHudView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -602,25 +593,34 @@
 		97EF5C73224201E60087392E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				97EF5CCC224232480087392E /* CCLocationManager.h */,
+				97EF5CCD224232480087392E /* CCLocationManager.m */,
+				97EF5CCE224232480087392E /* CLLocation+YCLocation.h */,
+				97EF5CCF224232480087392E /* CLLocation+YCLocation.m */,
 				97EF5C74224201E60087392E /* BaseManager.m */,
 				97EF5C76224201E60087392E /* JYLogManager.m */,
 				97EF5C78224201E60087392E /* BaseManager.h */,
 				97EF5C79224201E60087392E /* JYLogManager.h */,
-				97EF5C7A224201E60087392E /* CCLocation */,
-				97EF5CCB224203CB0087392E /* TQBaseProject.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		97EF5C7A224201E60087392E /* CCLocation */ = {
+		97EF5CE122432B7C0087392E /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				97EF5C7B224201E60087392E /* CCLocationManager.h */,
-				97EF5C7C224201E60087392E /* CLLocation+YCLocation.h */,
-				97EF5C7D224201E60087392E /* CCLocationManager.m */,
-				97EF5C7E224201E60087392E /* CLLocation+YCLocation.m */,
+				97EF5CE222432B7C0087392E /* UIViewController+CustomHud.h */,
+				97EF5CE322432B7C0087392E /* NSString+Extension.h */,
+				97EF5CE422432B7C0087392E /* UIView+Extension.h */,
+				97EF5CEA22432B7C0087392E /* UIView+Extension.m */,
+				97EF5CE522432B7C0087392E /* TQBaseProject.h */,
+				97EF5CE622432B7C0087392E /* UIView+JYCustomHud.h */,
+				97EF5CE722432B7C0087392E /* JYCustomHudView.h */,
+				97EF5CE822432B7C0087392E /* UIViewController+CustomHud.m */,
+				97EF5CE922432B7C0087392E /* NSString+Extension.m */,
+				97EF5CEB22432B7C0087392E /* JYCustomHudView.m */,
+				97EF5CEC22432B7C0087392E /* UIView+JYCustomHud.m */,
 			);
-			path = CCLocation;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		B1CAA7A3BBB0199D53FBCCD8 /* Frameworks */ = {
@@ -777,20 +777,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				97EF5CA1224201E70087392E /* ZFGenericChart.m in Sources */,
-				97EF5C85224201E60087392E /* UIView+Extension.m in Sources */,
-				97EF5CC4224201E70087392E /* JYCustomHudView.m in Sources */,
 				97EF5CBF224201E70087392E /* ZFWave.m in Sources */,
 				97EF5CB6224201E70087392E /* ZFPopoverLabel.m in Sources */,
-				97EF5CC9224201E70087392E /* CCLocationManager.m in Sources */,
 				97EF5CB5224201E70087392E /* ZFYAxisLine.m in Sources */,
+				97EF5CED22432B7C0087392E /* UIViewController+CustomHud.m in Sources */,
 				97EF5CB3224201E70087392E /* ZFLine.m in Sources */,
 				97EF5CAF224201E70087392E /* ZFPie.m in Sources */,
 				97EF5CAC224201E70087392E /* ZFConst.m in Sources */,
 				97EF5CB9224201E70087392E /* ZFPolygon.m in Sources */,
 				97EF5CA3224201E70087392E /* ZFBar.m in Sources */,
-				97EF5C80224201E60087392E /* UIViewController+CustomHud.m in Sources */,
 				97EF5C9E224201E70087392E /* JYAlertInPutView.m in Sources */,
 				97EF5CB4224201E70087392E /* ZFXAxisLine.m in Sources */,
+				97EF5CEF22432B7C0087392E /* UIView+Extension.m in Sources */,
 				97EF5CAE224201E70087392E /* ZFPieChart.m in Sources */,
 				97EF5C82224201E60087392E /* UIViewController+TQPhoto.m in Sources */,
 				97EF5CC7224201E70087392E /* JYLogManager.m in Sources */,
@@ -802,6 +800,7 @@
 				97EF5BC7224201A90087392E /* ViewController.m in Sources */,
 				97EF5C81224201E60087392E /* Animation.m in Sources */,
 				97EF5CA4224201E70087392E /* UIView+Zirkfied.m in Sources */,
+				97EF5CF022432B7C0087392E /* JYCustomHudView.m in Sources */,
 				97EF5CBA224201E70087392E /* ZFRadarChart.m in Sources */,
 				97EF5CC5224201E70087392E /* BaseApi.m in Sources */,
 				97EF5CC0224201E70087392E /* ZFHorizontalBarChart.m in Sources */,
@@ -809,6 +808,7 @@
 				97EF5C7F224201E60087392E /* UIColor+hex.m in Sources */,
 				97EF5CBE224201E70087392E /* ZFWaveChart.m in Sources */,
 				97EF5CC6224201E70087392E /* BaseManager.m in Sources */,
+				97EF5CD0224232480087392E /* CCLocationManager.m in Sources */,
 				97EF5CC1224201E70087392E /* ZFHorizontalBar.m in Sources */,
 				97EF5CB7224201E70087392E /* ZFLabel.m in Sources */,
 				97EF5BD2224201AE0087392E /* main.m in Sources */,
@@ -819,7 +819,6 @@
 				97EF5C8B224201E60087392E /* BaseWebVC.m in Sources */,
 				97EF5CBB224201E70087392E /* ZFGenericAxis.m in Sources */,
 				97EF5CB8224201E70087392E /* ZFRadar.m in Sources */,
-				97EF5C86224201E60087392E /* UIView+JYCustomHud.m in Sources */,
 				97EF5C8C224201E60087392E /* BaseTabBaarController.m in Sources */,
 				97EF5C89224201E60087392E /* BaseNavigationController.m in Sources */,
 				97EF5C87224201E60087392E /* UITextField+Shake.m in Sources */,
@@ -828,13 +827,14 @@
 				97EF5CAD224201E70087392E /* ZFMethod.m in Sources */,
 				97EF5CA7224201E70087392E /* NSString+Zirkfied.m in Sources */,
 				97EF5C88224201E60087392E /* BaseController.m in Sources */,
-				97EF5C83224201E60087392E /* NSString+Extension.m in Sources */,
 				97EF5CA8224201E70087392E /* NSNumber+Zirkfied.m in Sources */,
 				97EF5CA9224201E70087392E /* ZFCirqueChart.m in Sources */,
-				97EF5CCA224201E70087392E /* CLLocation+YCLocation.m in Sources */,
+				97EF5CF122432B7C0087392E /* UIView+JYCustomHud.m in Sources */,
+				97EF5CD1224232480087392E /* CLLocation+YCLocation.m in Sources */,
 				97EF5CA5224201E70087392E /* UIBezierPath+Zirkfied.m in Sources */,
 				97EF5CB0224201E70087392E /* ZFTranslucencePath.m in Sources */,
 				97EF5CAA224201E70087392E /* ZFCirque.m in Sources */,
+				97EF5CEE22432B7C0087392E /* NSString+Extension.m in Sources */,
 				97EF5CC3224201E70087392E /* GlobalTableView.m in Sources */,
 				97EF5CA6224201E70087392E /* UIColor+Zirkfied.m in Sources */,
 				97EF5C84224201E60087392E /* UIImageView+CornerRadius.m in Sources */,
