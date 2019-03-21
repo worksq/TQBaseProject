@@ -598,9 +598,7 @@
 				97EF5CCE224232480087392E /* CLLocation+YCLocation.h */,
 				97EF5CCF224232480087392E /* CLLocation+YCLocation.m */,
 				97EF5C74224201E60087392E /* BaseManager.m */,
-				97EF5C76224201E60087392E /* JYLogManager.m */,
 				97EF5C78224201E60087392E /* BaseManager.h */,
-				97EF5C79224201E60087392E /* JYLogManager.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -608,6 +606,8 @@
 		97EF5CE122432B7C0087392E /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				97EF5C76224201E60087392E /* JYLogManager.m */,
+				97EF5C79224201E60087392E /* JYLogManager.h */,
 				97EF5CE222432B7C0087392E /* UIViewController+CustomHud.h */,
 				97EF5CE322432B7C0087392E /* NSString+Extension.h */,
 				97EF5CE422432B7C0087392E /* UIView+Extension.h */,
